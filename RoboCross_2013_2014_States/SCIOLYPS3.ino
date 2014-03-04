@@ -20,6 +20,12 @@ void setup() {
   pinMode(RIGHT_MOTOR_PIN, OUTPUT);
   pinMode(LEFT_MOTOR_PIN, OUTPUT);
   
+  pinMode(HINGE_1_PIN, OUTPUT);
+  pinMode(HINGE_2_PIN, OUTPUT);
+  
+  pinMode(CLAW_PIN, OUTPUT);
+  pinMode(PAN_PIN, OUTPUT);
+  
   // Attach motors
   rightMotor1.attach(RIGHT_MOTOR_PIN);
   rightMotor2.attach(RIGHT_MOTOR_PIN);
