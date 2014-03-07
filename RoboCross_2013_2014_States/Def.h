@@ -15,8 +15,8 @@
 //ASSIGN BUTTONS
 //************************************************************************
 
-#define HINGE_1_UP L1 
-#define HINGE_1_DOWN L2 
+#define HINGE_1_UP R1 
+#define HINGE_1_DOWN R2 
 
 #define HINGE_2_UP UP 
 #define HINGE_2_DOWN DOWN 
@@ -24,8 +24,8 @@
 #define PAN_LEFT SQUARE 
 #define PAN_RIGHT CIRCLE 
 
-#define OPEN_CLAW R1 
-#define CLOSE_CLAW R2 
+#define OPEN_CLAW L1 
+#define CLOSE_CLAW L2 
 
 //************************************************************************
 //SERVOS
